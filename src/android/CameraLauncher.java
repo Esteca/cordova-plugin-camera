@@ -602,7 +602,7 @@ public class CameraLauncher extends CordovaPlugin implements MediaScannerConnect
         File storageDir = Environment.getExternalStoragePublicDirectory(
                 Environment.DIRECTORY_PICTURES);
         storageDir.mkdirs();
-        String galleryPath = storageDir.getAbsolutePath() + "/" + imageFileName;
+        String galleryPath = storageDir.getAbsolutePath() + "/Selofie/" + imageFileName;
         return galleryPath;
     }
 
